@@ -1,0 +1,38 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * ivymode:
+ *   - http://typekit.com/eulas/00000000000000007735ce7b
+ * ivystyle-sans:
+ *   - http://typekit.com/eulas/00000000000000007735c074
+ *   - http://typekit.com/eulas/00000000000000007735c082
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2026-07-24 07:29:19 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=yey3ruw&ht=tk&f=38008.38011.42534&a=92737358&app=typekit&e=css");
+
+@font-face {
+font-family:"ivystyle-sans";
+src:url("https://use.typekit.net/af/32a3a5/00000000000000007735c074/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/32a3a5/00000000000000007735c074/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/32a3a5/00000000000000007735c074/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-display:swap;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ivystyle-sans";
+src:url("https://use.typekit.net/af/e1f115/00000000000000007735c082/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/e1f115/00000000000000007735c082/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/e1f115/00000000000000007735c082/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:swap;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"ivymode";
+src:url("https://use.typekit.net/af/c59ffc/00000000000000007735ce7b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/c59ffc/00000000000000007735ce7b/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/c59ffc/00000000000000007735ce7b/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:swap;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+.tk-ivystyle-sans { font-family: "ivystyle-sans",sans-serif; }
+.tk-ivymode { font-family: "ivymode",sans-serif; }
