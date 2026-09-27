@@ -1,0 +1,122 @@
+{
+  "refs": [
+    {
+      "id": "master",
+      "ref": "anZQQRIAAC4AKBO0",
+      "label": "Master",
+      "isMasterRef": true
+    }
+  ],
+  "bookmarks": {},
+  "experiments": {
+    "draft": [],
+    "running": []
+  },
+  "types": {
+    "category": "Categorie",
+    "chi_siamo": "Chi Siamo",
+    "contatti": "Contatti",
+    "experience": "Experience",
+    "footer": "Footer",
+    "homepage": "Homepage",
+    "navigation": "Navigazione",
+    "product": "Scheda Prodotto",
+    "products_page": "Prodotti",
+    "produzione": "Produzione"
+  },
+  "languages": [
+    {
+      "id": "it-it",
+      "name": "Italian - Italy",
+      "is_master": true
+    },
+    {
+      "id": "en-gb",
+      "name": "English - United Kingdom",
+      "is_master": false
+    }
+  ],
+  "forms": {
+    "everything": {
+      "method": "GET",
+      "enctype": "application/x-www-form-urlencoded",
+      "action": "https://agrumea-site.cdn.prismic.io/api/v2/documents/search",
+      "fields": {
+        "ref": {
+          "type": "String",
+          "multiple": false
+        },
+        "q": {
+          "type": "String",
+          "multiple": true
+        },
+        "lang": {
+          "type": "String",
+          "multiple": false
+        },
+        "page": {
+          "type": "Integer",
+          "multiple": false,
+          "default": "1"
+        },
+        "pageSize": {
+          "type": "Integer",
+          "multiple": false,
+          "default": "20"
+        },
+        "after": {
+          "type": "String",
+          "multiple": false
+        },
+        "fetch": {
+          "type": "String",
+          "multiple": false
+        },
+        "fetchLinks": {
+          "type": "String",
+          "multiple": false
+        },
+        "graphQuery": {
+          "multiple": false,
+          "type": "String"
+        },
+        "orderings": {
+          "type": "String",
+          "multiple": false
+        },
+        "referer": {
+          "type": "String",
+          "multiple": false
+        },
+        "routes": {
+          "type": "String",
+          "multiple": false
+        },
+        "access_token": {
+          "type": "String",
+          "multiple": false
+        },
+        "integrationFieldsRef": {
+          "type": "String",
+          "multiple": false
+        }
+      }
+    },
+    "tags": {
+      "method": "GET",
+      "enctype": "application/x-www-form-urlencoded",
+      "action": "https://agrumea-site.cdn.prismic.io/api/tags",
+      "fields": {
+        "access_token": {
+          "type": "String",
+          "multiple": false
+        }
+      }
+    }
+  },
+  "oauth_initiate": "https://agrumea-site.prismic.io/auth",
+  "oauth_token": "https://agrumea-site.prismic.io/auth/token",
+  "tags": [],
+  "license": "All Rights Reserved",
+  "version": "482083b"
+}
