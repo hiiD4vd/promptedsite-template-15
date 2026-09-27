@@ -1,0 +1,17 @@
+# Node / Build artifacts
+node_modules/
+.nuxt/
+dist/
+.output/
+
+# Python
+__pycache__/
+*.pyc
+
+# Temp / Scratch screenshots
+*.png
+*.jpg
+!images/**
+!images.prismic.io/**
+test_*.py
+*dump*.json
